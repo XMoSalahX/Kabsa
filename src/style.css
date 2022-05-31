@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.time {
+  @apply bg-yellow-100 text-yellow-600 font-bold p-2 rounded absolute top-2 right-2;
+}
+
+.card-container {
+  @apply grid gap-10;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.btn {
+  @apply rounded-full text-red-500 px-4 py-2 uppercase text-xs font-bold tracking-widest cursor-pointer;
+}
